@@ -1,0 +1,67 @@
+/* Font from https://github.com/theleagueof/league-spartan */
+/* Credit to https://www.theleagueofmoveabletype.com/ */
+@font-face {
+  font-family: 'League Spartan Regular';
+  src: url('LeagueSpartan-Regular.otf')
+}
+
+body {
+  font-family: 'League Spartan Regular', sans-serif;
+  font-size: 1.5em;
+  width: 90%;
+  margin: auto;
+}
+
+h1.header {
+  text-align: right;
+  color: #cc0000;
+  float:right;
+  margin-top: 0px;
+}
+
+.topnav li {
+	display: inline;
+}
+
+.edit-date {
+  font-size: 0.8em;
+  color: darkgreen;
+  margin-bottom: 0px;
+}
+
+.edit-history {
+  font-family: monospace;
+  font-size: 0.8em;
+  padding:1em;
+  border-style: solid;
+  margin-top: 0px;
+  display:inline-block;
+  white-space: pre-wrap;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.editbox {
+  width: 100%;
+  height: 20em;
+  font-family: monospace;
+  font-size: 0.8em;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		width: 98%;
+	}
+	
+	h1.header {
+		text-align:center;
+		float:none;
+	}
+
+	.topnav {
+		text-align:center;
+		margin: auto;
+	}
+}

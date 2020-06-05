@@ -1,0 +1,15 @@
+<ul class="topnav">
+  <li><a href="/view/<%= params.page %>">View page</a></li>
+  <li><a href="/history/<%= params.page %>">Page history</a></li>
+  <li><a href="/new">New page</a></li>
+</ul>
+
+<h1>Edit</h1>
+
+<p>See the <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a>
+  for help with formatting.</p>
+
+<form method="post">
+  <textarea class="editbox" name="page_content"><%- raw_content %></textarea>
+  <input type="submit" value="Save">
+</form>

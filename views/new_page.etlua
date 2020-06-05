@@ -1,0 +1,7 @@
+<h1>New Page</h1>
+
+<form method="post">
+  <label for="new-page">Page:</label>
+  <input type="text" id="new-page" name="new_page">
+  <input type="submit" value="Ok">
+</form>

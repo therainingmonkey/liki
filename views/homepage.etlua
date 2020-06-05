@@ -1,0 +1,9 @@
+<a href="/new">New page</a>
+
+<h3>Recently updated pages:</h3>
+<ul>
+  <% for i, page in ipairs(pages) do %>
+    <li><a href="/view/<%= page.name %>"> <%= page.name %></a></li>
+  <% end %>
+</ul>
+

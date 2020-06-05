@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/static/stylesheet.css" />
+  <title><%= page_title or "Liki" %></title>
+</head>
+<body>
+<a href="/"><h1 class="header">Liki</h1></a>
+  <% content_for("inner") %>
+</body>
+</html>

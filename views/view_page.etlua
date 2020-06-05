@@ -1,0 +1,9 @@
+<ul class="topnav">
+  <li><a href="/edit/<%= params.page %>">Edit page</a></li>
+  <li><a href="/history/<%= params.page %>">Page history</a></li>
+  <li><a href="/new">New page</a></li>
+</ul>
+
+<div class="content">
+  <%- content %>
+</div>
