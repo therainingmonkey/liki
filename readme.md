@@ -9,6 +9,11 @@ Openresty has [binaries][3] for most linux distros, Windows and Mac.
 Lapis can then be installed with `luarocks install lapis`.
 
 ## Running
+Create the content directories inside liki's root directory: 
+`mkdir -p content/pages && mkdir content/histories`
+
+You could link them from elsewhere if you prefer.
+
 Run `lapis server` in Liki's root directory. Liki will be available at 
 `localhost:8080`.
 
